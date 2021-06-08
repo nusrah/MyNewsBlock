@@ -2,4 +2,5 @@
 A sign in UI screen using Tablayout and ViewPager2.
 
 
-![newsblock gif image] (newsblock-gif.gif)
+
+![](newsblock-gif. gif)
