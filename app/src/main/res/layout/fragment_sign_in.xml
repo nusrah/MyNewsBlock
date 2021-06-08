@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp"
+    android:background="@color/light_blue"
+    android:orientation="vertical"
+    tools:context=".fragments.SignInFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="johndoe@gmail.com"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_text_background"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/deep_blue"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:text="1234567890"
+            android:background="@drawable/edit_text_background"
+            android:hint="Password"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:background="@drawable/round_button"/>
+
+</LinearLayout>
